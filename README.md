@@ -25,3 +25,12 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## Deploy to GitHub Pages
+
+1. Push this repo to GitHub on branch `main`.
+2. In GitHub repo settings, open `Pages`.
+3. Set Source to `GitHub Actions`.
+4. Push again (or run the workflow manually).
+
+The workflow file is at `.github/workflows/deploy.yml` and will deploy `dist/` automatically on each push to `main`.
