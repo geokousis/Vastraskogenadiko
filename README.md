@@ -1,4 +1,4 @@
-# jeeba-charts
+# Vastraskogenadiko
 
 React website that generates a stylized exploded pie chart inspired by your reference image.
 
